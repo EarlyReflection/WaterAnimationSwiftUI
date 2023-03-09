@@ -12,6 +12,7 @@
 		D1B0005629B7B94D007868D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B0005529B7B94D007868D5 /* Assets.xcassets */; };
 		D1B0005929B7B94D007868D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B0005829B7B94D007868D5 /* Preview Assets.xcassets */; };
 		D1B0006029B7BD75007868D5 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B0005F29B7BD75007868D5 /* WaveView.swift */; };
+		D1F4705929BA50B9009FE5CF /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F4705829BA50B9009FE5CF /* BubbleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D1B0005529B7B94D007868D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1B0005829B7B94D007868D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1B0005F29B7BD75007868D5 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		D1F4705829BA50B9009FE5CF /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				D1B0005129B7B94B007868D5 /* WaterAnimationSwiftUIApp.swift */,
 				D1B0005329B7B94B007868D5 /* ContentView.swift */,
+				D1F4705829BA50B9009FE5CF /* BubbleView.swift */,
 				D1B0005F29B7BD75007868D5 /* WaveView.swift */,
 				D1B0005529B7B94D007868D5 /* Assets.xcassets */,
 				D1B0005729B7B94D007868D5 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				D1B0005429B7B94B007868D5 /* ContentView.swift in Sources */,
 				D1B0006029B7BD75007868D5 /* WaveView.swift in Sources */,
+				D1F4705929BA50B9009FE5CF /* BubbleView.swift in Sources */,
 				D1B0005229B7B94B007868D5 /* WaterAnimationSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
