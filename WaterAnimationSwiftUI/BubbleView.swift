@@ -11,10 +11,10 @@ struct BubbleView: View {
     
     private let screen = UIScreen.main.bounds
     
-    var opacity = 0.5
-    var scale = 0.03
-    var shiftX = 0.0
-    var shiftY = 0.0
+    let opacity: Double
+    let scale: Double
+    let shiftX: Double
+    let shiftY: Double
     
     var body: some View {
         let buble = Circle()
@@ -33,7 +33,7 @@ struct BubbleView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color(.gray)
-            BubbleView()
+            BubbleView(opacity: 0.5, scale: 0.03, shiftX: 0, shiftY: 0)
         }
         .ignoresSafeArea()
             
